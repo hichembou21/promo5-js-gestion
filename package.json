@@ -1,0 +1,36 @@
+{
+  "name": "promo5-js-gestion",
+  "version": "1.0.0",
+  "description": "example pour la gestion des dependances ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "node-sass scss --output dist/css --watch",
+    "webpack": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hichembou21/promo5-js-gestion.git"
+  },
+  "author": "hichem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hichembou21/promo5-js-gestion/issues"
+  },
+  "homepage": "https://github.com/hichembou21/promo5-js-gestion#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^2.30.1",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}
